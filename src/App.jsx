@@ -1,10 +1,11 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-// Declaramos un componente react llamado App y devuelve 
-//lo que se vera en la interfaz
+// Declaramos un componente react llamado App y devuelve...
+//lo que se vera en la interfaz aqui
 //la flecha es comun en react para definir componentes funcionales
 const App = () => { 
+
   return (
     //importamos el componente Navbar.
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
