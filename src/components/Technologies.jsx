@@ -4,7 +4,20 @@ import { FaPython } from "react-icons/fa";
 import { BsFiletypeSql } from "react-icons/bs";
 import { FaNode } from "react-icons/fa";
 import { FaAngular } from "react-icons/fa";
+import {animate, motion} from "framer-motion"
 
+const iconVatiants = (duration) => ({
+    initial: {y: -10},
+    animate: {
+        y: [10, -10],
+        transition: {
+            duration: duration,
+            ease: "linear",
+            repear: Infinity,
+            repeatType: "reverse",
+        }
+    }
+})
 
 const Technologies = () => {
   return (

@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import Technologies from './components/Technologies';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
+import Contac from './components/Contac';
 
 // Declaramos un componente react llamado App y devuelve...
 //lo que se vera en la interfaz aqui
@@ -24,6 +25,7 @@ const App = () => {
         <Technologies/>
         <Experience/>
         <Projects/>
+        <Contac/>
       </div>
     </div>
   );
