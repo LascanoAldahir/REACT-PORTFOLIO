@@ -20,7 +20,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Comprehensive Technical Support and Customer Service System for Electronics Workshop",
+    title: "BACKEND - Comprehensive Technical Support and Customer Service System for Electronics Workshop",
     image: project1,
     description:
       "A robust backend system designed to manage repairs and customer interactions for an electronics workshop. Features include service registration, budget estimates, customer status tracking, and real-time notifications.",
