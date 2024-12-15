@@ -22,6 +22,7 @@ export const PROJECTS = [
   {
     title: "BACKEND - Comprehensive Technical Support and Customer Service System for Electronics Workshop",
     image: project1,
+    link: "https://github.com/LascanoAldahir/BackendTesis",
     description:
       "A robust backend system designed to manage repairs and customer interactions for an electronics workshop. Features include service registration, budget estimates, customer status tracking, and real-time notifications.",
     tool: ["Node.js", "Express.js", "MongoDB", "JWT", "Scrum Methodology", "Render Hosting"],
