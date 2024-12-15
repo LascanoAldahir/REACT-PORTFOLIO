@@ -30,7 +30,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Ecuador - Quito - Mena Dos (Vencedores de Pichincha)",
+  address: "Ecuador - Quito - Mena Dos.",
   phoneNo: "+593 998 341 271 ",
   email: "aldahirlascano@gmail.com",
 };
