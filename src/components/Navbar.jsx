@@ -13,7 +13,7 @@ const Navbar = () => {
         {/* Íconos de redes sociales con hipervínculos */}
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a
-          href="linkedin.com/in/aldahir-lascano-58bb88319"
+          href="https://www.linkedin.com/in/aldahir-lascano-58bb88319/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-700"
