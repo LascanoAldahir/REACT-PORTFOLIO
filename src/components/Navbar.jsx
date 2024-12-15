@@ -10,11 +10,33 @@ const Navbar = () => {
             < img src={logo} alt="logo"/>
         </div>
         
-        <div className="m-8 flex items-center justify-center gap-4 text-2xl ">
-            <FaLinkedin/>
-            <FaGithub/>
-            <FaInstagram/>
-        </div>
+        {/* Íconos de redes sociales con hipervínculos */}
+      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+        <a
+          href="linkedin.com/in/aldahir-lascano-58bb88319"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-blue-700"
+        >
+          <FaLinkedin />
+        </a>
+        <a
+          href="https://github.com/LascanoAldahir"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-gray-700"
+        >
+          <FaGithub />
+        </a>
+        <a
+          href="https://www.instagram.com/aldahirlascano/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-pink-600"
+        >
+          <FaInstagram />
+        </a>
+      </div>
 
     </nav>
   )
