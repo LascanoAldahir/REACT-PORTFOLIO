@@ -7,3 +7,15 @@
 :root {
   font-family: "Inter", serif;
 }
+
+html, body, #root {
+  height: 100%;
+  overflow-x: hidden;
+
+}
+
+body {
+  min-height: 100vh;
+
+  overflow-x: hidden;
+}

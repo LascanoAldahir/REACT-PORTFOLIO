@@ -4,17 +4,24 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import Technologies from "../components/Technologies";
 
-export const HERO_CONTENT = `I am a passionate Software Developer with a knack for creating robust and scalable web applications. I have honed my skills in front-end technologies such as React and Next.js, as well as back-end technologies such as Node.js, MySQL, and MongoDB. My goal is to leverage my experience to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a Front-End Developer with experience in building responsive and user-centric interfaces using Angular, PrimeNG, and PrimeFlex. Currently working at Tata Consultancy Services on a project for Produbanco, I focus on delivering clean, maintainable code and intuitive designs that enhance user experience.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile Software Developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a committed Front-End Developer with experience in creating responsive, user-focused web applications. Currently working at Tata Consultancy Services on a project for Produbanco, I specialize in building consultative screens using Angular, PrimeNG, and PrimeFlex. My background includes practical knowledge of Git for version control and task management through Azure DevOps, ensuring efficient collaboration and code integration. Driven by continuous learning, I aim to deliver clean, maintainable solutions that combine functionality and design. Outside of work, I enjoy exploring emerging technologies and refining my development skills.`;
 
 export const EXPERIENCES = [
+  {
+    year: "March 2025 - present",
+    role: "Front-End Developer",
+    company: "TATA CONSULTANCY SERVICES",
+    description: `Developing responsive and consultative screens for a banking project at Produbanco. Responsibilities include implementing UI components using Angular, PrimeNG, and PrimeFlex, ensuring usability and performance. Collaborating through Azure DevOps and managing version control with Git.`,
+    tool: ["Angular", "PrimeNG", "PrimeFlex", "TypeScript", "Git", "Azure DevOps"],
+  },
   {
     year: "2023 - 2023",
     role: "Technical Support in Hardware and Software Maintenance.",
     company: "AAMPETRA (Academia Aeronáutica Mayor Pedro Traversari)",
-    description: `Internship at AAMPETRA in Chillogallo providing technical support to computers and managing virtual platforms of the institution..`,
-    tool: ["OS Windows"],
+    description: `Provided hardware and software maintenance for institutional computers and managed virtual platforms to ensure smooth operations.`,
+    tool: ["Windows OS", "Hardware Maintenance", "Software Troubleshooting"],
   },
 ];
 
